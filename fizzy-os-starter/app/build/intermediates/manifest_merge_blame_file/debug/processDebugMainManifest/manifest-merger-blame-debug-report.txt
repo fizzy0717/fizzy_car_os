@@ -1,0 +1,123 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fizzyos.launcher"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="29"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:2:5-89
+12        android:name="android.software.home_screen"
+12-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:2:19-62
+13        android:required="false" />
+13-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:2:63-87
+14
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:3:5-66
+15-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:3:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:4:5-78
+16-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:4:22-76
+17    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+17-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:5:5-78
+17-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:6:5-80
+18-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:6:22-78
+19    <uses-permission
+19-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:7:5-94
+20        android:name="android.permission.BLUETOOTH"
+20-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:7:22-65
+21        android:maxSdkVersion="30" />
+21-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:7:66-92
+22    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+22-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:8:5-75
+22-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:8:22-73
+23
+24    <queries>
+24-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:9:5-15:15
+25        <package android:name="com.google.android.apps.maps" />
+25-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:10:9-63
+25-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:10:18-61
+26
+27        <intent>
+27-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:11:9-14:18
+28            <action android:name="android.intent.action.MAIN" />
+28-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:12:13-64
+28-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:12:21-62
+29
+30            <category android:name="android.intent.category.LAUNCHER" />
+30-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:13:13-72
+30-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:13:23-70
+31        </intent>
+32    </queries>
+33
+34    <application
+34-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:16:5-33:19
+35        android:allowBackup="true"
+35-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:16:18-44
+36        android:debuggable="true"
+37        android:extractNativeLibs="false"
+38        android:label="FIZZY OS"
+38-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:16:45-69
+39        android:testOnly="true"
+40        android:theme="@android:style/Theme.Material.NoActionBar"
+40-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:16:70-127
+41        android:usesCleartextTraffic="false" >
+41-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:16:128-164
+42        <activity
+42-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:17:9-27:20
+43            android:name="com.fizzyos.launcher.MainActivity"
+43-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:17:19-47
+44            android:exported="true"
+44-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:17:48-71
+45            android:screenOrientation="landscape" >
+45-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:17:72-109
+46            <intent-filter>
+46-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:18:13-21:29
+47                <action android:name="android.intent.action.MAIN" />
+47-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:12:13-64
+47-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:12:21-62
+48
+49                <category android:name="android.intent.category.LAUNCHER" />
+49-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:13:13-72
+49-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:13:23-70
+50            </intent-filter>
+51            <intent-filter>
+51-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:22:13-26:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:12:13-64
+52-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:12:21-62
+53
+54                <category android:name="android.intent.category.HOME" />
+54-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:24:17-72
+54-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:24:27-70
+55                <category android:name="android.intent.category.DEFAULT" />
+55-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:25:17-75
+55-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:25:27-73
+56            </intent-filter>
+57        </activity>
+58
+59        <service
+59-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:28:9-32:19
+60            android:name="com.fizzyos.launcher.NavigationNotificationListener"
+60-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:28:18-64
+61            android:exported="false"
+61-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:28:184-208
+62            android:label="FIZZY OS Navigation Updates"
+62-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:28:65-108
+63            android:permission="android.permission.BIND_NOTIFICATION_LISTENER_SERVICE" >
+63-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:28:109-183
+64            <intent-filter>
+64-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:29:13-31:29
+65                <action android:name="android.service.notification.NotificationListenerService" />
+65-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:30:17-98
+65-->C:\fizzy os car\fizzy-os-starter\app\src\main\AndroidManifest.xml:30:25-96
+66            </intent-filter>
+67        </service>
+68    </application>
+69
+70</manifest>
